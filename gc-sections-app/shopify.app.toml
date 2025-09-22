@@ -1,3 +1,5 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
 client_id = "b5e355e0b07f61eb7ebb0d18c1b9a09c"
 name = "gc-sections-app"
 application_url = "https://gc-sections-app.geocommerce.in"
@@ -21,6 +23,8 @@ api_version = "2025-10"
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products"
+optional_scopes = [ ]
+use_legacy_install_flow = false
 
 [auth]
 redirect_urls = [ "https://gc-sections-app.geocommerce.in/api/auth" ]
